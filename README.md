@@ -1,11 +1,6 @@
 ````markdown
 # Guide: Using Molten-Nvim Directly with .ipynb Files (JSON View)
 
-[![Neovim Logo](https://img.shields.io/badge/Neovim-neovim.io-57A143?style=flat-square&logo=neovim&logoColor=white)](https://neovim.io/)
-[![Python Logo](https://img.shields.io/badge/Python-python.org-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org/)
-[![Jupyter Logo](https://img.shields.io/badge/Jupyter-jupyter.org-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Molten-Nvim GitHub](https://img.shields.io/badge/Molten_Nvim-GitHub-57A143?style=flat-square&logo=neovim&logoColor=white)](https://github.com/benlubas/molten-nvim)
-
 This guide details a workflow for interacting with Jupyter kernels and `.ipynb` notebook files directly within Neovim, using the [Molten-Nvim](https://github.com/benlubas/molten-nvim) plugin. The focus is on working with the raw JSON view that Neovim presents when opening a `.ipynb` file directly.
 
 This method was tested on Fedora 42 (Sway DE, Foot terminal) with Neovim 0.11-dev, targeting a Python kernel running in a dedicated virtual environment.
