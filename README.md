@@ -3,7 +3,7 @@
 
 This guide details a workflow for interacting with Jupyter kernels and `.ipynb` notebook files directly within Neovim, using the [Molten-Nvim](https://github.com/benlubas/molten-nvim) plugin. The focus is on working with the raw JSON view that Neovim presents when opening a `.ipynb` file directly.
 
-This method was tested on Fedora 42 (Sway compositor, Foot terminal) with Neovim 0.11-dev, targeting a Python kernel running in a dedicated virtual environment.
+This method was tested on Linux Fedora 42 (Sway compositor, Foot terminal) with Neovim 0.11-dev, targeting a Python kernel running in a dedicated virtual environment.
 
 **Key Finding:** While direct cell-based commands (`:MoltenEvaluateCell`, `:MoltenReevaluateCell`) may not work reliably when the cursor isn't within the source code lines of the raw JSON structure, **line-based and selection-based execution works well** after initialization and kernel connection. The `:MoltenImportOutput` command can be used to view results stored within the notebook file.
 
