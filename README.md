@@ -38,17 +38,17 @@ This setup is for the specific Python environment where your notebook code will 
 ```bash
 # 1. Activate your virtual environment (replace with your path)
 # Example:
-# source ~/path/to/your/venv/bin/activate
+source ~/path/to/your/venv/bin/activate
 
 # 2. Install required packages (using pip, uv, or your preferred tool)
 # Example:
-# pip install ipykernel notebook camel-ai # Add any other libraries your code needs
+pip install ipykernel notebook camel-ai # Add any other libraries your code needs
 
 # 3. Register the KernelSpec (makes it discoverable by Jupyter/Molten)
 # Run this command while the virtual environment is active:
 # python -m ipykernel install --user --name=<kernel-name> --display-name "Python (<display-name>)"
 # Example:
-# python -m ipykernel install --user --name=camel-ai --display-name "Python (camel-ai)"
+python -m ipykernel install --user --name=camel-ai --display-name "Python (camel-ai)"
 ```
 
 - **`ipykernel`**: Allows this environment to act as a Jupyter kernel.
